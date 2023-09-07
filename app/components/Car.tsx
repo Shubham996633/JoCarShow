@@ -6,6 +6,7 @@ import {Mesh} from 'three'
 
 const Car = () => {
     const gltf = useLoader(GLTFLoader, '/models/car/scene.gltf');
+    console.log(gltf.progress)
 
     useFrame((state,delta) => {
       let t= state.clock.getElapsedTime();

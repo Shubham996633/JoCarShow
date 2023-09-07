@@ -14,7 +14,7 @@ import { Boxes } from "./Boxes";
 import { Bloom,ChromaticAberration, EffectComposer  } from "@react-three/postprocessing";
 import {BlendFunction} from 'postprocessing'
 import { FloatingGrid } from "./FloatingGrid";
-
+import Loading from "./Loading";
 function CarShow() {
   return (
     <>
@@ -80,7 +80,7 @@ function CarShow() {
 }
 const AppContainer = () => {
   return (
-    <Suspense fallback={null}>
+    <Suspense fallback={<Loading/>}>
       <Canvas shadows>
         <CarShow />
       </Canvas>
