@@ -1,34 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 3D Car Model Showcase
 
-## Getting Started
+![image_2023-09-07_14-02-08](https://res.cloudinary.com/ds2fe7xai/image/upload/v1694075763/image_2023-09-07_14-05-21_u10sb4.png)
 
-First, run the development server:
+Welcome to the 3D Car Model Showcase! This project demonstrates the use of Three.js and React Three Fiber to create an interactive 3D car model presentation. The car model used in this project is the Chevrolet Corvette obtained from Sketchfab.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Stunning Loading Page: Enjoy a visually appealing loading page while all the contents load in the background.
+- Live 3D Touch: Interact with the Chevrolet Corvette using your mouse or touch screen to rotate, zoom, and explore the model from all angles.
+- Amazing Texture Background: The environment is beautifully textured to provide an immersive experience.
+- Rounded Lighting Rings: Experience dynamic lighting with rings of different colors that create a captivating visual effect.
+- Floating Color Boxes: Colorful boxes float around the scene, adding a touch of whimsy.
+- Infinite Animation: The elements animate in a forward direction, creating an effect reminiscent of an infinity tunnel.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Technologies Used
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- [Next.js 13](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Three.js](https://threejs.org/)
+- [React Three Fiber](https://github.com/pmndrs/react-three-fiber)
+- [Sketchfab API](https://sketchfab.com/)
+- [JavaScript (ES6+)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-## Learn More
+## How to Run
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone the repository to your local machine.
+2. Install the required dependencies by running `npm install`.
+3. Start the development server with `npm start`.
+4. Open your web browser and navigate to `http://localhost:3000`.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Credits
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Chevrolet Corvette 3D Model by [Sketchfab - Chevrolte Corvette 3D Model](https://sketchfab.com/3d-models/chevrolet-corvette-c7-2b509d1bce104224b147c81757f6f43a)
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

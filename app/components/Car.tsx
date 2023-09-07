@@ -6,11 +6,12 @@ import {Mesh} from 'three'
 
 const Car = () => {
     const gltf = useLoader(GLTFLoader, '/models/car/scene.gltf');
-    console.log(gltf.progress)
+    
 
     useFrame((state,delta) => {
       let t= state.clock.getElapsedTime();
       let group = gltf.scene.children[0].children[0].children[0];
+      
       group.children[0].rotation.x = t * 2;
       group.children[2].rotation.x = t * 2;
       group.children[4].rotation.x = t * 2;
